@@ -1,8 +1,12 @@
 import React from 'react'
+import TodoForm from './TodoForm'
 
 function TodoList() {
   return (
-    <div>TodoList</div>
+    <div>
+      <h1>What's the plan for today</h1>
+      <TodoForm / >
+    </div>
   )
 }
 
